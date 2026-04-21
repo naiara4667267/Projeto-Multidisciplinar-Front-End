@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Cadastro</title>
+</head>
+<body>
+
+<h2>Cadastro do Cliente</h2>
+
+<input id="nome" type="text" placeholder="Nome completo *">
+
+<input type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" oninput="mascaraTelefone(this)" maxlength="15">
+
+<input id="cpf" type="text" 
+placeholder="CPF: xxx.xxx.xxx-xx (opcional)">
+
+<input id="email" type="email" 
+placeholder="Email (opcional)">
+
+<input type="text" id="nascimento" placeholder="dd/mm/aaaa" oninput="mascaraData(this)" maxlength="10">
+
+<input id="endereco" type="text" 
+placeholder="Endereço completo *">
+
+<br>
+<button onclick="irLGPD()">Continuar</button>
+
+<p id="erro"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
