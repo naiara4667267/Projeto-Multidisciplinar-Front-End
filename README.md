@@ -1,2 +1,0 @@
-
-# Projeto-Multidisciplinar-Front-End
