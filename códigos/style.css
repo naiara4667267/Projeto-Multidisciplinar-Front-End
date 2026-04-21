@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fff8f0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px
+}
+
+/* Container central */
+.container {
+  background: white;
+  width: 320px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h2 {
+  margin-bottom: 90px;
+  font-size: 50px;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  
+}
+
+/* Botões */
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff914d;
+  color: black;
+  cursor: pointer;
+  font-size: 30px
+  
+}
+
+.cardapio button {
+  width: auto;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.carrinho button {
+  width: auto;
+  margin: 5px;
+  font-size: 20px;
+}
+
+/* Botão secundário */
+button.secundario {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Lista (cardápio) */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  font-size: 30px
+}
+
+/* Mensagens */
+#mensagem, #erro {
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+/* Resumo */
+#resumo, #resumoCarrinho {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 30px
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #ff914d;
+  font-weight: bold;
+}
