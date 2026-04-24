@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Cadastro</title>
+</head>
+<body>
+
+<h2>Cadastro do Cliente</h2>
+
+<input id="nome" type="text" placeholder="Nome completo *">
+
+<input type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" oninput="mascaraTelefone(this)" maxlength="15">
+
+<input id="cpf" type="text" 
+placeholder="CPF: xxx.xxx.xxx-xx (opcional)">
+
+<input id="email" type="email" 
+placeholder="Email (opcional)">
+
+<input type="text" id="nascimento" placeholder="dd/mm/aaaa" oninput="mascaraData(this)" maxlength="10">
+
+<input id="endereco" type="text" 
+placeholder="Endereço completo *">
+
+<input id="senhaCadastro" type="password" placeholder="Crie uma senha *">
+
+<!-- CRITÉRIOS -->
+<small>
+A senha deve conter no mínimo 3 caracteres, incluindo:
+<br>• Pelo menos 1 letra
+<br>• Pelo menos 1 número
+<br>• Pelo menos 1 caractere especial (@#$%&)
+</small>
+
+
+<br><br>
+
+
+<button type="button" onclick="irLGPD()">Continuar</button>
+
+
+<br><br>
+
+
+<button type="button" onclick="irLogin()">Tenho cadastro</button>
+
+<br><br>
+
+<p id="erro" style="color:red;"></p> 
+
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
